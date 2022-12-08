@@ -1,0 +1,4 @@
+# These items are needed for running tests
+mypy
+pytest
+requests

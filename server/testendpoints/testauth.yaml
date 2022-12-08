@@ -1,0 +1,14 @@
+# test oauth response data
+# This is read by the corresponding endpoint script
+
+oauth_data:
+  admin:
+    uid: admin
+    email: admin@apache.org
+    name: Admin
+    fullname: Admin Name
+  user:
+    uid: user
+    email: user@apache.org
+    name: User
+    fullname: User Name

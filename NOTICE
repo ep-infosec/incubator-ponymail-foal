@@ -1,0 +1,33 @@
+Apache Pony Mail (Incubating)
+Copyright 2016-2021 The Apache Software Foundation.
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Portions of this software were developed by Quenda IvS,
+Quenda (http://www.quenda.co/)
+
+For
+  webui/js/jquery-1.12.4.min.js
+
+    jQuery JavaScript Library v1.4.5
+    http://jquery.com/
+
+    Copyright(c) 2010, 2014 jQuery Foundation, Inc.
+    Licensed under the MIT license.
+    http://docs.jquery.com/License
+
+    Date: Date: 2016-05-20T17:17Z
+
+For
+  webui/css/hack.css + webui/fonts/hack*.woff*
+
+    Hack Font Suite
+    https://sourcefoundry.org/hack/
+
+    Copyright 2018 Source Foundry Authors
+    Licensed under the MIT license.
+    https://github.com/source-foundry/Hack/blob/master/LICENSE.md
+
+    Date: Date: 2018-01-22T03:11Z
+

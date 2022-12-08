@@ -1,0 +1,10 @@
+---
+sourceLocationPrefix: "/home/user/asf/cloner/gh/clones/incubator-ponymail-foal"
+baselineLinesOfCode: 7838
+unicodeNewlines: true
+columnKind: "utf16"
+primaryLanguage: "javascript"
+creationMetadata:
+  sha: "31940dc9924f33945372437940dea8fbb8dd36bc"
+  cliVersion: "2.11.1"
+  creationTime: "2022-12-07T17:55:43.234113469Z"

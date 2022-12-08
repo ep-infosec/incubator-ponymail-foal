@@ -1,0 +1,36 @@
+server:
+  port: 8080             # Port to bind to
+  bind: 127.0.0.1        # IP to bind to - typically 127.0.0.1 for localhost or 0.0.0.0 for all IPs
+
+
+database:
+  dburl:     http://localhost:9200/   # The URL of the ElasticSearch database
+  db_prefix: ponymail                 # DB prefix, usually 'ponymail'
+  max_hits: 15000                     # Maximum number of emails to process in a search
+  pool_size: 15                       # number of connections for async queries
+  max_lists: 8192                     # max number of lists to allow for
+
+tasks:
+  refresh_rate:  150                  # Background indexer run interval, in seconds
+
+ui:
+  wordcloud:       true
+  mailhost:        localhost
+  sender_domains:  "*"
+  traceback:       true
+  mgmtconsole:     true
+  true_gdpr:       true
+
+# Fill in OAuth data as needed
+oauth:
+# If using OAuth, set the authoritative domains here. These are the OAuth domains that 
+# will provide access to private emails.
+  authoritative_domains:
+#   - localhost
+#    - googleapis.com  # OAuth via google is authoritative
+#    - github.com      # GitHub OAuth is authoritative
+  admins:
+#    - localtest@apache.org
+#  google_client_id:     ~
+#  github_client_id:     ~
+#  github_client_secret: ~
